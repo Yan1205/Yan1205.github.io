@@ -23,7 +23,7 @@
   #page-header::before {
     background: transparent !important;
   }
-  
+
   /* 夜间模式遮罩透明 */
   [data-theme="dark"] #footer::before {
     background: transparent !important;
@@ -330,7 +330,14 @@ div#archive {
 
 /* 导航栏 */
 #page-header.nav-fixed #nav {
-  background: rgba(205, 190, 190, 0.75);
+  background: linear-gradient(
+    -45deg,
+    #e8d8b9,
+    #eccec5,
+    #a3e9eb,
+    #bdbdf0,
+    #eec1ea
+  );
   backdrop-filter: var(--backdrop-filter);
 }
 
@@ -389,4 +396,78 @@ div#archive {
   pointer-events: none;
   /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */
   z-index: -1;
+}
+
+/* 雪花 */
+/* 雪花特效 */
+[data-theme="light"] #snow{
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -2;
+}
+
+/* 雪花黑夜模式不显示 */
+[data-theme="dark"] #snow{
+  display: none;
+}
+
+
+/* 帧率检测 */
+#fps {
+  position: fixed;
+  /* 指定位置 */
+  left: 10px;
+  bottom: 10px;
+  z-index: 1919810;
+}
+[data-theme="light"] #fps {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: var(--backdrop-filter);
+  padding: 4px;
+  border-radius: 4px;
+}
+[data-theme="dark"] #fps {
+  background-color: rgba(0, 0, 0, 0.72);
+  backdrop-filter: var(--backdrop-filter);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+/* 引入iconfont */
+/* @import "//at.alicdn.com/t/font_2264842_b004iy0kk2b.css"; */
+
+/* 菜单栏多色动态图标 */
+svg.icon {
+  width: 1.28em;
+  height: 1.28em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* 社交图标 */
+svg.social_icon {
+  width: 1.20em;
+  height: 1.20em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* 夜间模式背景 */
+[data-theme = dark] #web_bg {
+  position: fixed;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+  background: url(/img/cover_dark.jpg);
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
