@@ -4,6 +4,131 @@
   
     
     <entry>
+      <title>OI工具</title>
+      <link href="/2023/04/27/OI%E5%B7%A5%E5%85%B7/"/>
+      <url>/2023/04/27/OI%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<h1 id="OI工具"><a href="#OI工具" class="headerlink" title="OI工具"></a>OI工具</h1><h2 id="一、CP-Editor-编译器"><a href="#一、CP-Editor-编译器" class="headerlink" title="一、CP Editor 编译器"></a>一、CP Editor 编译器</h2><p>（<del>Copy and Paste Editorial</del>）</p><h3 id="1-安装"><a href="#1-安装" class="headerlink" title="(1) 安装"></a>(1) 安装</h3><ol><li><p>文字教程：<a href="https://oi-wiki.org/tools/editor/cpeditor/">CP Editor - OI Wiki (oi-wiki.org)</a></p></li><li><p>视频教程：<a href="https://www.bilibili.com/video/BV1mX4y1V7S8/?vd_source=15aaf2f3032abe28c98a76535d8c050b">简单的 CP Editor 使用教程！_哔哩哔哩_bilibili</a></p></li></ol><h3 id="2-日常调教-（Ctrl-P打开设置）"><a href="#2-日常调教-（Ctrl-P打开设置）" class="headerlink" title="(2) 日常调教  （Ctrl+P打开设置）"></a>(2) 日常调教  （Ctrl+P打开设置）</h3><ul><li><h4 id="设置模板"><a href="#设置模板" class="headerlink" title="设置模板"></a>设置模板</h4><ol><li><p>管理员身份的cmd进入cf_v1.0.0_windows_64文件路径。</p></li><li><p>命令<code>cf config</code>跳出选项。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Configure the tool</span><br><span class="line">0) login</span><br><span class="line">1) add a template</span><br><span class="line">2) delete a template</span><br><span class="line">3) set default template</span><br><span class="line">4) run &quot;cf gen&quot; after &quot;cf parse&quot;</span><br><span class="line">5) set host domain</span><br><span class="line">6) set proxy</span><br><span class="line">7) set folders&#x27; name</span><br><span class="line">Please choose one (index):</span><br></pre></td></tr></table></figure></li><li><p>选<code>0</code>登录后，再调出上述界面。</p></li><li><p>选<code>1</code>添加模板，再选<code>language</code>里的<code>50</code>(G++14)。在<code>Template absolute path(e.g. &quot;~/template/io.cpp&quot;):</code>之后输入模板文件路径。<code>suffix</code>不需要填，直接回车。</p></li><li><p><code>alias</code>输入<code>cpp</code>。</p></li><li><p><code>`Before script</code>也不需要填，直接回车。</p></li><li><p><code>Script</code>下直接复制<code>./$%file%$.exe</code>输入就行。</p></li><li><p><code>After Script</code>直接回车。</p></li><li><p><code>Make it default (y/n)?</code> 输入<code>y</code>。<strong>这样上传模板就成功了。</strong></p></li><li><p>用<code>cf config</code>调出选项，用3，2来设置默认模板和删除模板。</p></li></ol></li></ul><ul><li><h4 id="CF-Tool爬取OJ"><a href="#CF-Tool爬取OJ" class="headerlink" title="CF Tool爬取OJ"></a>CF Tool爬取OJ</h4><p><em>(需事先安装Competitive Companion 拓展(CF tool)</em></p><ol><li>直接爬取：在左键浏览器CF Tool插件$\rightarrow$Parse with$\rightarrow$Problem parser$\rightarrow$选择相应OJ内核。</li><li>开启默认：在左键浏览器CF Tool插件$\rightarrow$管理拓展$\rightarrow$扩展选项$\rightarrow$Custom rules$\rightarrow$设置OJ网址和OJ类型。</li></ol></li></ul><h2 id="二、相关网站"><a href="#二、相关网站" class="headerlink" title="二、相关网站"></a>二、相关网站</h2><ul><li><a href="https://comphub.notion.site/comphub/c5f45f67535e452ba475497c46830534?v=fcfac8df9b9d4fe2883226a3580c2f1a">OJ日历</a>：比赛日历</li><li><a href="https://oi-wiki.org/">OI Wiki</a>：知识点百科</li><li><a href="https://cftracker.netlify.app/contests">CF Tracker</a>：CodeForces赛事题目统计</li><li></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>科研工具</title>
+      <link href="/2023/04/15/%E7%A7%91%E7%A0%94%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
+      <url>/2023/04/15/%E7%A7%91%E7%A0%94%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<h1 id="科研工具"><a href="#科研工具" class="headerlink" title="科研工具"></a>科研工具</h1><h2 id="一、tyora"><a href="#一、tyora" class="headerlink" title="一、tyora"></a>一、tyora</h2><p>破解版安装：<a href="https://www.bilibili.com/video/BV1zX4y1X73T/?spm_id_from=333.337.search-card.all.click">Typora免费安装使用，直接安装无废话(最新版本也可使用）_哔哩哔哩_bilibili</a></p><p>使用教程：<a href="https://www.bilibili.com/video/BV1hG411p7fX/?spm_id_from=333.999.0.0&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">[Markdown + Typora/VSCode 超全教程] 给大一新生安利的文本神器 !_哔哩哔哩_bilibili</a></p><h2 id="二、LaTex公式"><a href="#二、LaTex公式" class="headerlink" title="二、LaTex公式"></a>二、LaTex公式</h2><p>公式表：<a href="https://blog.csdn.net/LCCFlccf/article/details/89643585">(42条消息) LaTeX数学符号大全_latex 数学符号_LCCFlccf的博客-CSDN博客</a></p><p>公式编辑器：<a href="https://www.latexlive.com/">在线LaTeX公式编辑器-编辑器 (latexlive.com)</a></p><p>图片提取：</p><h3 id="三、Markdown"><a href="#三、Markdown" class="headerlink" title="三、Markdown"></a>三、Markdown</h3><p>语法：<a href="https://markdown.com.cn/intro.html">Markdown 入门基础 | Markdown 官方教程</a></p><h3 id="四、卡西欧fx991"><a href="#四、卡西欧fx991" class="headerlink" title="四、卡西欧fx991"></a>四、卡西欧fx991</h3><p><a href="https://www.bilibili.com/video/BV1gY411L71c/?spm_id_from=333.999.0.0&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">【B站最全】卡西欧fx991计算器使用教程升级版_哔哩哔哩_bilibili</a></p><h3 id="五、MatLab安装"><a href="#五、MatLab安装" class="headerlink" title="五、MatLab安装"></a>五、MatLab安装</h3><p><a href="https://blog.csdn.net/qq_44955314/article/details/120004211">(42条消息) 最新MATLAB R2020b超详细安装教程（附完整安装文件）_matlab2020b安装教程_dew_142857的博客-CSDN博客</a></p><h3 id="六、codeforces使用教程"><a href="#六、codeforces使用教程" class="headerlink" title="六、codeforces使用教程"></a>六、codeforces使用教程</h3><p><a href="https://blog.csdn.net/bwabdbkjdbkjwabd/article/details/119620156">CodeForce使用说明超详细！！！！！</a></p><p><a href="https://zhuanlan.zhihu.com/p/71674596">【洛谷日报#116】Codeforces快速精通</a></p><h3 id="七、lingo安装"><a href="#七、lingo安装" class="headerlink" title="七、lingo安装"></a>七、lingo安装</h3><p><a href="https://blog.csdn.net/GODSuner/article/details/107435105">Lingo 18.0及其安装教程</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 基础学科 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科研 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>背包</title>
+      <link href="/2023/04/05/%E8%83%8C%E5%8C%85/"/>
+      <url>/2023/04/05/%E8%83%8C%E5%8C%85/</url>
+      
+        <content type="html"><![CDATA[<h1 id="背包"><a href="#背包" class="headerlink" title="背包"></a>背包</h1><h2 id="一、01背包"><a href="#一、01背包" class="headerlink" title="一、01背包"></a>一、01背包</h2><p>对前i个物品，都有选或不选的01状态。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>; i&lt;=n; i++)</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> j=m; j&gt;=w[i]; j--)</span><br><span class="line">    dp[j]=<span class="built_in">max</span>(dp[j], dp[ j-w[i] ]+v[i]);</span><br></pre></td></tr></table></figure><h2 id="二、完全背包问题"><a href="#二、完全背包问题" class="headerlink" title="二、完全背包问题"></a>二、完全背包问题</h2><p>每种物品可无限取用。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>; i&lt;=n; i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="type">int</span> j=w[i]; j&lt;=m; j++)</span><br><span class="line">    dp[j]=<span class="built_in">max</span>( dp[j], dp[ j-w[i] ]+v[i]);</span><br></pre></td></tr></table></figure><h2 id="三、多重背包问题"><a href="#三、多重背包问题" class="headerlink" title="三、多重背包问题"></a>三、多重背包问题</h2><p>每种物品有限取。</p><h3 id="一-二进制优化"><a href="#一-二进制优化" class="headerlink" title="(一)二进制优化"></a>(一)二进制优化</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>; i&lt;=n; i++)</span><br><span class="line">&#123;</span><br><span class="line">  <span class="type">int</span> k=<span class="number">1</span>, a,b,s; cin&gt;&gt;a&gt;&gt;b&gt;&gt;s;</span><br><span class="line">  <span class="keyword">while</span>(k&lt;=s)</span><br><span class="line">  &#123;</span><br><span class="line">    cnt++;</span><br><span class="line">    v[cnt]=k*a; w[cnt]=k*b;</span><br><span class="line">    s-=k; k*=<span class="number">2</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">if</span>(s&gt;<span class="number">0</span>)</span><br><span class="line">  &#123;</span><br><span class="line">    cnt++;</span><br><span class="line">    v[cnt]=s*a; w[cnt]=s*b;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">n=cnt;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>; i&lt;=n; i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="type">int</span> j=m; j&gt;=v[i]; j--)</span><br><span class="line">    dp[j]=<span class="built_in">max</span>(dp[j], dp[j-v[i]]+w[i]);</span><br><span class="line"></span><br><span class="line">cout&lt;&lt;dp[m];</span><br></pre></td></tr></table></figure><h3 id="三-单调队列优化"><a href="#三-单调队列优化" class="headerlink" title="(三)单调队列优化"></a>(三)单调队列优化</h3><h2 id="三、混合背包"><a href="#三、混合背包" class="headerlink" title="三、混合背包"></a>三、混合背包</h2><ul><li><p>第一类物品只能用1次（01背包）；</p></li><li><p>第二类物品可以用无限次（完全背包）；</p></li><li><p>第三类物品最多只能用 $S_i$次（多重背包）；</p></li></ul><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(s&lt;<span class="number">0</span>) s=<span class="number">1</span>;</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span>(s==<span class="number">0</span>) s=m/a;</span><br><span class="line"><span class="comment">//之后多重背包模板</span></span><br></pre></td></tr></table></figure><p>将混合背包转化位多重背包问题。</p><h2 id="四、二维背包"><a href="#四、二维背包" class="headerlink" title="四、二维背包"></a>四、二维背包</h2><p>有两个限制，设置二维数组，两层遍历。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>; i&lt;=n; i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="type">int</span> j=V; j&gt;=v[i]; j++)</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> k=M; k&gt;=m[i]; k++)</span><br><span class="line">      dp[j][k]=<span class="built_in">max</span>(dp[j][k], dp[j-v[i]][k-m[i]]+w[i]);</span><br><span class="line">cout&lt;&lt;dp[V][M];</span><br></pre></td></tr></table></figure><h2 id="五、分组背包"><a href="#五、分组背包" class="headerlink" title="五、分组背包"></a>五、分组背包</h2><p>物品分为n组，每组只能选一个。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>; i&lt;=n; i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="type">int</span> j=m; j&gt;=<span class="number">1</span>; j--)</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> k=<span class="number">1</span>; k&gt;=s[i]; k++)</span><br><span class="line">      <span class="keyword">if</span>(v[i][k]&lt;=j) dp[j]=<span class="built_in">max</span>(dp[j], dp[j-v[i][k]]+w[i][k]);</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>多元微分学</title>
+      <link href="/2023/04/03/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6/"/>
+      <url>/2023/04/03/%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6/</url>
+      
+        <content type="html"><![CDATA[<h1 id="高数-多元微分学"><a href="#高数-多元微分学" class="headerlink" title="高数|多元微分学"></a>高数|多元微分学</h1><h2 id="一、偏导数"><a href="#一、偏导数" class="headerlink" title="一、偏导数"></a>一、偏导数</h2><p>初等函数，复合函数，隐函数</p><h2 id="二、全微分"><a href="#二、全微分" class="headerlink" title="二、全微分"></a>二、全微分</h2><p>初等函数，复合函数</p><p>变型：已知全微分求参。利用”对两个函数的偏微分与顺序无关“的恒等性质列出方程。</p><h2 id="三、极值"><a href="#三、极值" class="headerlink" title="三、极值"></a>三、极值</h2><p>求出偏导数为0的解，用$B^2-AC$判断极值点的情况。</p><p>对于隐函数，需要求出符合元隐函数条件的 偏导数为0的解，即还需要联立原方程。</p><h2 id="四、最值"><a href="#四、最值" class="headerlink" title="四、最值"></a>四、最值</h2><ol><li>先求出区间，然后利用求极值的方法，解出最值。</li><li>不等式。</li></ol><p>​    </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 基础学科 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>极限</title>
+      <link href="/2023/04/03/%E6%9E%81%E9%99%90/"/>
+      <url>/2023/04/03/%E6%9E%81%E9%99%90/</url>
+      
+        <content type="html"><![CDATA[<h1 id="高数极限"><a href="#高数极限" class="headerlink" title="高数极限"></a>高数极限</h1><p>本博客可以作为自学材料，也可作为<a href="https://www.bilibili.com/video/BV1Gr4y1P7Rt/?spm_id_from=333.788&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">考研竞赛凯哥-极限</a>的讲义。</p><h2 id="规则"><a href="#规则" class="headerlink" title="规则"></a>规则</h2><ol><li><p>无穷小代换：被代换部分与整体为乘除关系，即被代换部分为因子。</p><blockquote><p>例：$\lim_{x\rightarrow0}\frac{x-\sin{x}}{x^3}$中不可把$\sin{x}$替换为x。</p></blockquote></li><li><p>特殊无穷小代换：若α,β→0，且α ~ α~1~ ， β ~ β~1~ ， 则α±β ~ α~1~±β~1~（可用等比定理证明）。</p><blockquote><p>例：$x-\sin{x}$可替换为$arcsin{x}-x$。</p></blockquote></li><li><p>局部代入：非零因子才能局部代换。</p><blockquote><p>例：$\lim_{x\rightarrow0}\frac{x-\sin{x}\cos{x}}{x^3}$不能把$\cos{x}$代为1。</p></blockquote></li><li><p><a href="https://zhuanlan.zhihu.com/p/60268688">极限拆分</a>：每个函数的极限都存在。</p><blockquote><p>例: </p></blockquote></li></ol><h2 id="预备知识"><a href="#预备知识" class="headerlink" title="预备知识"></a>预备知识</h2><ol><li><p><a href="https://baijiahao.baidu.com/s?id=1681664435625655973">六小函数图像</a>:  $xe^x, x\ln{x}, \frac{x}{e^x}, \frac{\ln{x}}{x}, \frac{e^x}{x}, \frac{x}{\ln{x}}$</p></li><li><p><a href="https://zhuanlan.zhihu.com/p/25048945">两个重要极限</a>：</p><p>$\lim_{x\rightarrow0} $ $\frac{sinx}{x}$ = 1</p><p>$\lim<em>{x\rightarrow0}$ $(1+x)^\frac{1}{x}$ = $\lim</em>{x\rightarrow+\infty}$ $(1+\frac{1}{x})^x$ = e</p></li><li><p>无穷小代换 (when $x\rightarrow0$)：</p><p>$x\sim\sin{x}\sim\arcsin{x}\sim\tan{x}\sim\arctan{x}\sim\ln{(x+1)\sim e^x-1}$</p><p>$\lim_{x\rightarrow1}(x-1)\sim\ln{x}$🖊</p><p>$x-sin{x}\sim\frac{1}{6}x^3\sim\arcsin{x}-x$</p><p>$\tan{x}-x\sim\frac{1}{3}x^3\sim x-\arctan{x}$</p><p>$\tan{x}-\sin{x}\sim\frac{1}{2}x^3\sim\arcsin{x}-\arctan{x}$</p><p>$x-\ln(1+x)\sim\frac{1}{2}x^2\sim1-\cos{x}$</p><p>$a^x-1\sim x\ln{a}$</p><p>$(1+ax)^b\sim abx$</p><script type="math/tex; mode=display">\sqrt{1+x}-\sqrt{1-x}\sim x</script></li><li><p>等价无穷大代换：</p><p>$\alpha\sim\beta\rightarrow+0, 则\ln{\alpha}\sim\ln{\beta}\rightarrow-\infty$</p><blockquote><p>证明： $\frac{\ln{a}}{\ln{b}}=\frac{\ln{a}-\ln{b}}{\ln{b}}+1=\frac{\ln{\frac{a}{b}}}{\ln{b}}+1=1$</p></blockquote><ol><li>$\lim<em>{x\rightarrow+0}{\frac{\ln{\arctan{x}}}{\ln{(\ln(1+x))}}}=\lim</em>{x\rightarrow+0}{\frac{\ln{x}}{\ln{x}}}=1$</li><li>$\lim<em>{x\rightarrow+0}{(e^x-1-x)}^{\frac{1}{x}}=e^{\lim</em>{x\rightarrow+0}{\frac{\ln(e^x-1-x)}{\ln{x}}}}=e^{\lim<em>{x\rightarrow+0}{\frac{\ln{\frac{x^2}{2}}}{\ln{x}}}}=e^{\lim</em>{x\rightarrow+0}{\frac{2\ln{x}-\ln{2}}{\ln{x}}}}=e^2$</li><li>$\lim<em>{x\rightarrow{+}\infty}{(x^{\frac{1}{x}}-1)}^{\frac{1}{\ln{x}}}=e^{\lim</em>{x\rightarrow{+}\infty}\frac{1}{\ln{x}}\ln{x^{\frac{1}{x}}-1}}e^{\lim_{x\rightarrow{+}\infty}\frac{1}{\ln{x}}(\ln{\ln{x}}-\ln{x})}=e^{-1}$</li></ol></li><li><p><a href="[【数学135】4分钟通透泰勒展开式！看完不会算我输！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV128411L7Nx/?spm_id_from=333.788.top_right_bar_window_custom_collection.content.click&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">泰勒展开（速记）</a>)</p></li></ol><h2 id="题型总结"><a href="#题型总结" class="headerlink" title="题型总结"></a>题型总结</h2><h3 id="型一：构造等价无穷小"><a href="#型一：构造等价无穷小" class="headerlink" title="型一：构造等价无穷小"></a>型一：构造等价无穷小</h3><ol><li>求$\lim_{x\rightarrow0}\frac{\sqrt[m]{1+ax}\sqrt[m]{1+bx}-1}{x}$</li></ol><blockquote><p>法一：想到$\lim_{x\rightarrow0}\sqrt[m]{1+ax}-1\sim\frac{a}{m}x$,则应围绕该项配凑。</p></blockquote><p>​    $=\lim_{x\rightarrow0}\frac{\sqrt[m]{1+ax}-1}{x}\sqrt[n]{1+bx}+\frac{\sqrt[n]{1+bx}-1}{x}$</p><p>​    $=\lim_{x\rightarrow0}\frac{ax}{mx}\bullet1+\frac{bx}{nx}$</p><p>​    $=\frac{a}{m}+\frac{b}{n}$</p><blockquote><p>我们可以总结出$AB-1=(A-1)B+(B-1)$的恒等式。</p><p>法二：发现分子的结构，套用🖊公式    </p></blockquote><p>​    $=\lim_{x\rightarrow0}\frac{\ln{\sqrt[m]{1+ax}\sqrt[n]{1+bx}}}{x}$</p><p>​    $=\lim<em>{x\rightarrow0}\frac{\ln{\sqrt[m]{1+ax}}}{x}+\lim</em>{x\rightarrow0}\frac{\ln{\sqrt[n]{1+bx}}}{x}$</p><p>​    $=\lim<em>{x\rightarrow0}\frac{\sqrt[m]{1+ax}-1}{x}+\lim</em>{x\rightarrow0}\frac{\sqrt[n]{1+bx}-1}{x}$</p><hr><p>​    2.求$\lim_{x\rightarrow0}\frac{1-\cos{x}\cos{2x}\cos{3x}\cdots\cos{nx}}{x^2}$</p><blockquote><p>法一：构造</p></blockquote><p>​    $=\lim<em>{x\rightarrow0}\frac{1-\cos{x}}{x^2}+lim</em>{x\rightarrow0}\cos{x}\frac{1-\cos{2x}\cos{3x}\cdots\cos{nx}}{x^2}$</p><p>​    $=\frac{1}{2}+\frac{1}{2}\times2^2+\frac{1}{2}\times{3^2}+\cdots$</p><p>​    $=\frac{1}{2}\times\frac{1}{6}n(n+1)(2n+1)$ (平方和公式)</p><blockquote><p>法二：🖊</p></blockquote><p>​    $=-\lim_{x\rightarrow0}\frac{\ln{\cos{x}\cos{2x}\cdots\cos{nx}}}{x^2}$</p><p>​    $=\lim_{x\rightarrow0}\sum_1^n\frac{1-\cos{ix}}{x^2}$</p><p>​    $=\lim_{x\rightarrow0}\sum_1^n\frac{(ix)^2}{2x^2}$</p><h3 id="型二：幂指函数-lim-u-x-v-x-取指对数-e-lim-u-x-ln-v-x"><a href="#型二：幂指函数-lim-u-x-v-x-取指对数-e-lim-u-x-ln-v-x" class="headerlink" title="型二：幂指函数($\lim{u(x)}^{v(x)}$)取指对数($e^{\lim{u(x)}\ln{v(x)}}$)"></a>型二：幂指函数($\lim{u(x)}^{v(x)}$)取指对数($e^{\lim{u(x)}\ln{v(x)}}$)</h3><ol><li><p>$\lim_{x\rightarrow0}\frac{\sin{x}}{x}^{\frac{1}{1-\cos{x}}}$</p><blockquote></blockquote></li><li><p>$\lim_{x\rightarrow0}\frac{1}{x3}[({\frac{2+\cos{x}}{3}})^x-1]$</p></li><li><p>$\lim_{x\rightarrow0}(\frac{e^x+e^{2x}+e^{3x}+\dots+e^{nx}}{n})^{\frac{e}{x}}$</p></li><li><p>$\lim_{x\rightarrow{+}\infty}[{\frac{(1+\frac{1}{x})^x}{e}]}^x$</p></li><li><p>$\lim_{x\rightarrow0}\frac{(3+2\tan{x})^x-3^x}{3\sin^2{x}+x^3\cos{\frac{1}{x}}}$</p><blockquote></blockquote></li><li><p>$f(x),g(x)$在x=0的领域U内有定义，且对$\forall x\in U$,均有$f(x)\not=g(x),且\lim<em>{x\rightarrow0}{f(x)=\lim</em>{x\rightarrow0}{g(x)}}=a&gt;0,求\lim_{x\rightarrow0}\frac{[f(x)]^{g(x)}-[g(x)]^{f(x)}}{f(x)-g(x)}$</p></li></ol><h3 id="型三：精度不够用泰勒"><a href="#型三：精度不够用泰勒" class="headerlink" title="型三：精度不够用泰勒"></a>型三：精度不够用泰勒</h3><ol><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 基础学科 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 基础学科 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2023/03/18/hello-world/"/>
       <url>/2023/03/18/hello-world/</url>
