@@ -8,7 +8,7 @@
       <link href="/2023/08/01/%E6%95%B0%E6%A8%A1%E4%BA%94%E4%B8%80B/"/>
       <url>/2023/08/01/%E6%95%B0%E6%A8%A1%E4%BA%94%E4%B8%80B/</url>
       
-        <content type="html"><![CDATA[<h1 id="数模五一B"><a href="#数模五一B" class="headerlink" title="数模五一B"></a>数模五一B</h1><h1 id="Analysis："><a href="#Analysis：" class="headerlink" title="Analysis："></a>Analysis：</h1><h2 id="一：评价类，topsis模型"><a href="#一：评价类，topsis模型" class="headerlink" title="一：评价类，topsis模型"></a>一：评价类，topsis模型</h2><p><a href="https://zhuanlan.zhihu.com/p/564302492">数学建模——常考评价类模型介绍 - 知乎 (zhihu.com)</a></p><h2 id="二、三：预测类问题，ARIMA时间序列分析"><a href="#二、三：预测类问题，ARIMA时间序列分析" class="headerlink" title="二、三：预测类问题，ARIMA时间序列分析"></a>二、三：预测类问题，ARIMA时间序列分析</h2><h6 id="LSTM也可用？是否鸡肋？"><a href="#LSTM也可用？是否鸡肋？" class="headerlink" title="LSTM也可用？是否鸡肋？"></a><em>LSTM也可用？是否鸡肋？</em></h6><h2 id="四：图论，最短路算法"><a href="#四：图论，最短路算法" class="headerlink" title="四：图论，最短路算法"></a>四：图论，最短路算法</h2><p>传统最短路算法（进阶：<strong>最小费用最大流</strong>）</p><h6 id="软件？"><a href="#软件？" class="headerlink" title="软件？"></a><em>软件？</em></h6><h2 id="五：数学统计问题"><a href="#五：数学统计问题" class="headerlink" title="五：数学统计问题"></a>五：数学统计问题</h2><p>固定需求常数：（均值-标准差）/2；决策树？</p><h6 id="如何验证该常数的准确性？"><a href="#如何验证该常数的准确性？" class="headerlink" title="如何验证该常数的准确性？"></a><em>如何验证该常数的准确性？</em></h6><p>非固定需求常数：实际运输量-固定需求常数。</p><h6 id="如何理解非固定需求概率分布估计方法？"><a href="#如何理解非固定需求概率分布估计方法？" class="headerlink" title="如何理解非固定需求概率分布估计方法？"></a><em>如何理解非固定需求概率分布估计方法？</em></h6><h2 id="Questions"><a href="#Questions" class="headerlink" title="Questions:"></a>Questions:</h2><ol><li>归一化处理的注意事项，尤其是评价类问题；</li><li>模型评价和验证；</li><li>规划类问题还没有遇到。</li></ol><p><img src="https://pic.imgdb.cn/item/64c8a7761ddac507cca7a647.webp" alt="数模模型总结"></p><h1 id="Request："><a href="#Request：" class="headerlink" title="Request："></a>Request：</h1><ol><li><p>每类问题至少拿得出手一个模型。</p></li><li><p>名表模型的优缺点，该舍舍，该用用。</p></li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="数模五一B"><a href="#数模五一B" class="headerlink" title="数模五一B"></a>数模五一B</h1><h1 id="Analysis："><a href="#Analysis：" class="headerlink" title="Analysis："></a>Analysis：</h1><h2 id="一：评价类，topsis模型"><a href="#一：评价类，topsis模型" class="headerlink" title="一：评价类，topsis模型"></a>一：评价类，topsis模型</h2><p>参考资料：</p><p><a href="https://www.bilibili.com/video/BV1R94y1m7jK/?spm_id_from=333.788.top_right_bar_window_history.content.click">小白快速上手熵权Topsis（原理+实战）_哔哩哔哩_bilibili</a></p><p><a href="https://zhuanlan.zhihu.com/p/564302492">数学建模——常考评价类模型介绍 - 知乎 (zhihu.com)</a></p><h2 id="二、三：预测类问题，ARIMA时间序列分析"><a href="#二、三：预测类问题，ARIMA时间序列分析" class="headerlink" title="二、三：预测类问题，ARIMA时间序列分析"></a>二、三：预测类问题，ARIMA时间序列分析</h2><p>参考资料：</p><p><a href="https://zhuanlan.zhihu.com/p/43771241">用ARIMA构建时间序列模型（附Python 和R代码） - 知乎 (zhihu.com)</a></p><p><a href="https://www.bilibili.com/video/BV1c5411971t/?spm_id_from=333.999.0.0&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">小白快速上手时间序列ARIMA（原理+实战）_哔哩哔哩_bilibili</a></p><h6 id="Q-LSTM也可用？是否鸡肋？"><a href="#Q-LSTM也可用？是否鸡肋？" class="headerlink" title="Q: LSTM也可用？是否鸡肋？"></a>Q: <em>LSTM也可用？是否鸡肋？</em></h6><p>A: <a href="https://zhuanlan.zhihu.com/p/455008183">ARIMA时间序列与LSTM神经网络的对比 - 知乎 (zhihu.com)</a></p><h2 id="四：图论，最短路算法"><a href="#四：图论，最短路算法" class="headerlink" title="四：图论，最短路算法"></a>四：图论，最短路算法</h2><p>本题中，传统最短路算法即可求解。因为图已经给出，边的权值也可以计算。</p><p>（进阶：<strong>最小费用最大流</strong>）</p><h6 id="软件？——Graphi"><a href="#软件？——Graphi" class="headerlink" title="软件？——Graphi"></a><em>软件？</em>——Graphi</h6><h2 id="五：数学统计问题"><a href="#五：数学统计问题" class="headerlink" title="五：数学统计问题"></a>五：数学统计问题</h2><p>固定需求常数：（均值-标准差）/2；决策树？</p><h6 id="如何验证该常数的准确性？"><a href="#如何验证该常数的准确性？" class="headerlink" title="如何验证该常数的准确性？"></a><em>如何验证该常数的准确性？</em></h6><p>非固定需求常数：实际运输量-固定需求常数。</p><h6 id="如何理解非固定需求概率分布估计方法？"><a href="#如何理解非固定需求概率分布估计方法？" class="headerlink" title="如何理解非固定需求概率分布估计方法？"></a><em>如何理解非固定需求概率分布估计方法？</em></h6><h2 id="Questions"><a href="#Questions" class="headerlink" title="Questions:"></a>Questions:</h2><ol><li>归一化处理的注意事项，尤其是评价类问题；</li><li>模型评价和验证；</li><li>规划类问题还没有遇到。</li></ol><p><img src="https://pic.imgdb.cn/item/64c8a7761ddac507cca7a647.webp" alt="数模模型总结"></p><h1 id="Request："><a href="#Request：" class="headerlink" title="Request："></a>Request：</h1><ol><li><p>每类问题至少拿得出手一个模型。</p></li><li><p>名表模型的优缺点，该舍舍，该用用。</p></li></ol>]]></content>
       
       
       <categories>
@@ -142,31 +142,6 @@
     
     
     <entry>
-      <title>Anaconda</title>
-      <link href="/2023/05/01/Anaconda/"/>
-      <url>/2023/05/01/Anaconda/</url>
-      
-        <content type="html"><![CDATA[<h1 id="AI常用工具"><a href="#AI常用工具" class="headerlink" title="AI常用工具"></a>AI常用工具</h1><p>基础工具安装：CUDA👉Anaconda👉Jupyter👉Matplotlib👉NumpyPyTorch</p><p>快速入门：<a href="https://www.bilibili.com/video/BV1oF411s7RS/?spm_id_from=333.788.top_right_bar_window_history.content.click&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">【CUDA + Anaconda 】深度学习环境配置，3分钟搞定简单粗暴<em>哔哩哔哩</em></a></p><p>Linux安装方法：</p><p><a href="https://blog.csdn.net/arno_an/article/details/105229780">(47条消息) Linux系统安装Anaconda3保姆级教程_anaconda3 linux_zhianY的博客-CSDN博客</a></p><p><a href="https://blog.csdn.net/qq_31225201/article/details/119458258">Linux] 安装Anaconda后出现的conda: command not found问题_让我安静会的博客-CSDN博客</a></p><p>安装失败解决办法：</p><ol><li>删除.condarc文件</li></ol><h2 id="一、命令行"><a href="#一、命令行" class="headerlink" title="一、命令行"></a>一、命令行</h2><ol><li>常用conda命令</li></ol>   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">conda --version <span class="comment">#查看conda版本，验证是否安装</span></span><br><span class="line">conda update conda <span class="comment">#更新至最新版本，也会更新其它相关包</span></span><br><span class="line">conda update --all <span class="comment">#更新所有包</span></span><br><span class="line">conda update package_name <span class="comment">#更新指定的包</span></span><br><span class="line">conda create -n env_name package_name <span class="comment">#创建名为env_name的新环境，并在该环境下安装名为package_name 的包，可以指定新环境的版本号，例如：conda create -n python2 python=python2.7 numpy pandas，创建了python2环境，python版本为2.7，同时还安装了numpy pandas包</span></span><br><span class="line"><span class="built_in">source</span> activate env_name <span class="comment">#切换至env_name环境</span></span><br><span class="line"><span class="built_in">source</span> deactivate <span class="comment">#退出环境</span></span><br><span class="line">conda info -e <span class="comment">#显示所有已经创建的环境</span></span><br><span class="line">conda create --name new_env_name --<span class="built_in">clone</span> old_env_name <span class="comment">#复制old_env_name为new_env_name</span></span><br><span class="line">conda remove --name env_name –all <span class="comment">#删除环境</span></span><br><span class="line">conda list <span class="comment">#查看所有已经安装的包</span></span><br><span class="line">conda install package_name <span class="comment">#在当前环境中安装包</span></span><br><span class="line">conda install --name env_name package_name <span class="comment">#在指定环境中安装包</span></span><br><span class="line">conda remove -- name env_name package <span class="comment">#删除指定环境中的包</span></span><br><span class="line">conda remove package <span class="comment">#删除当前环境中的包</span></span><br><span class="line">conda <span class="built_in">env</span> remove -n env_name <span class="comment">#采用第10条的方法删除环境失败时，可采用这种方法</span></span><br></pre></td></tr></table></figure><ol><li>打开jupyter<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conda activate name(虚拟环境名称)</span><br><span class="line">jupyter notebook  ```bash</span><br></pre></td></tr></table></figure></li></ol><p>​    快捷键：</p><p>按【H】键，会调出键盘快捷键</p><p><strong>命令行模式:</strong></p><p>Esc键 进入命令行模式</p><p>单元格左边变蓝色</p><p>常用快捷键</p><p>【Ctrl+Enter】：是运行选中的单元格，他会停留在此</p><p>【Alt+Enter】：是运行单元格并且在下面插入一个新的单元格</p><p>【Shift+Enter】:是 运行单元格, 并选择下面的单元格</p><p>【Tab】键用来代码补全</p><p>【A】键：above是在上面插入单元格</p><p>【B】键：below 是在下面插入单元格</p><p>【M】键： 是把单元格变成Markdown</p><p>【Y】键：是把单元格变成代码块</p><p>两下【D】键：删除选中的单元格</p><p><strong>编辑模式:</strong><br>Enter键 进入编辑模式</p><p>常用快捷键</p><p>【Ctrl+/】:代码注释</p><p>【Ctrl+D】:删除整行</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> AI </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> AI </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hexo常见问题</title>
       <link href="/2023/05/01/Hexo%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
       <url>/2023/05/01/Hexo%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</url>
@@ -184,6 +159,31 @@
         <tags>
             
             <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Anaconda</title>
+      <link href="/2023/05/01/Anaconda/"/>
+      <url>/2023/05/01/Anaconda/</url>
+      
+        <content type="html"><![CDATA[<h1 id="AI常用工具"><a href="#AI常用工具" class="headerlink" title="AI常用工具"></a>AI常用工具</h1><p>基础工具安装：CUDA👉Anaconda👉Jupyter👉Matplotlib👉NumpyPyTorch</p><p>快速入门：<a href="https://www.bilibili.com/video/BV1oF411s7RS/?spm_id_from=333.788.top_right_bar_window_history.content.click&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">【CUDA + Anaconda 】深度学习环境配置，3分钟搞定简单粗暴<em>哔哩哔哩</em></a></p><p>Linux安装方法：</p><p><a href="https://blog.csdn.net/arno_an/article/details/105229780">(47条消息) Linux系统安装Anaconda3保姆级教程_anaconda3 linux_zhianY的博客-CSDN博客</a></p><p><a href="https://blog.csdn.net/qq_31225201/article/details/119458258">Linux] 安装Anaconda后出现的conda: command not found问题_让我安静会的博客-CSDN博客</a></p><p>安装失败解决办法：</p><ol><li>删除.condarc文件</li></ol><h2 id="一、命令行"><a href="#一、命令行" class="headerlink" title="一、命令行"></a>一、命令行</h2><ol><li>常用conda命令</li></ol>   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">conda --version <span class="comment">#查看conda版本，验证是否安装</span></span><br><span class="line">conda update conda <span class="comment">#更新至最新版本，也会更新其它相关包</span></span><br><span class="line">conda update --all <span class="comment">#更新所有包</span></span><br><span class="line">conda update package_name <span class="comment">#更新指定的包</span></span><br><span class="line">conda create -n env_name package_name <span class="comment">#创建名为env_name的新环境，并在该环境下安装名为package_name 的包，可以指定新环境的版本号，例如：conda create -n python2 python=python2.7 numpy pandas，创建了python2环境，python版本为2.7，同时还安装了numpy pandas包</span></span><br><span class="line"><span class="built_in">source</span> activate env_name <span class="comment">#切换至env_name环境</span></span><br><span class="line"><span class="built_in">source</span> deactivate <span class="comment">#退出环境</span></span><br><span class="line">conda info -e <span class="comment">#显示所有已经创建的环境</span></span><br><span class="line">conda create --name new_env_name --<span class="built_in">clone</span> old_env_name <span class="comment">#复制old_env_name为new_env_name</span></span><br><span class="line">conda remove --name env_name –all <span class="comment">#删除环境</span></span><br><span class="line">conda list <span class="comment">#查看所有已经安装的包</span></span><br><span class="line">conda install package_name <span class="comment">#在当前环境中安装包</span></span><br><span class="line">conda install --name env_name package_name <span class="comment">#在指定环境中安装包</span></span><br><span class="line">conda remove -- name env_name package <span class="comment">#删除指定环境中的包</span></span><br><span class="line">conda remove package <span class="comment">#删除当前环境中的包</span></span><br><span class="line">conda <span class="built_in">env</span> remove -n env_name <span class="comment">#采用第10条的方法删除环境失败时，可采用这种方法</span></span><br></pre></td></tr></table></figure><ol><li>打开jupyter<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conda activate name(虚拟环境名称)</span><br><span class="line">jupyter notebook  ```bash</span><br></pre></td></tr></table></figure></li></ol><p>​    快捷键：</p><p>按【H】键，会调出键盘快捷键</p><p><strong>命令行模式:</strong></p><p>Esc键 进入命令行模式</p><p>单元格左边变蓝色</p><p>常用快捷键</p><p>【Ctrl+Enter】：是运行选中的单元格，他会停留在此</p><p>【Alt+Enter】：是运行单元格并且在下面插入一个新的单元格</p><p>【Shift+Enter】:是 运行单元格, 并选择下面的单元格</p><p>【Tab】键用来代码补全</p><p>【A】键：above是在上面插入单元格</p><p>【B】键：below 是在下面插入单元格</p><p>【M】键： 是把单元格变成Markdown</p><p>【Y】键：是把单元格变成代码块</p><p>两下【D】键：删除选中的单元格</p><p><strong>编辑模式:</strong><br>Enter键 进入编辑模式</p><p>常用快捷键</p><p>【Ctrl+/】:代码注释</p><p>【Ctrl+D】:删除整行</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> AI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
             
         </tags>
       
