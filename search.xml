@@ -4,6 +4,50 @@
   
     
     <entry>
+      <title>数模五一B</title>
+      <link href="/2023/08/01/%E6%95%B0%E6%A8%A1%E4%BA%94%E4%B8%80B/"/>
+      <url>/2023/08/01/%E6%95%B0%E6%A8%A1%E4%BA%94%E4%B8%80B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="数模五一B"><a href="#数模五一B" class="headerlink" title="数模五一B"></a>数模五一B</h1><h1 id="Analysis："><a href="#Analysis：" class="headerlink" title="Analysis："></a>Analysis：</h1><h2 id="一：评价类，topsis模型"><a href="#一：评价类，topsis模型" class="headerlink" title="一：评价类，topsis模型"></a>一：评价类，topsis模型</h2><p><a href="https://zhuanlan.zhihu.com/p/564302492">数学建模——常考评价类模型介绍 - 知乎 (zhihu.com)</a></p><h2 id="二、三：预测类问题，ARIMA时间序列分析"><a href="#二、三：预测类问题，ARIMA时间序列分析" class="headerlink" title="二、三：预测类问题，ARIMA时间序列分析"></a>二、三：预测类问题，ARIMA时间序列分析</h2><h6 id="LSTM也可用？是否鸡肋？"><a href="#LSTM也可用？是否鸡肋？" class="headerlink" title="LSTM也可用？是否鸡肋？"></a><em>LSTM也可用？是否鸡肋？</em></h6><h2 id="四：图论，最短路算法"><a href="#四：图论，最短路算法" class="headerlink" title="四：图论，最短路算法"></a>四：图论，最短路算法</h2><p>传统最短路算法（进阶：<strong>最小费用最大流</strong>）</p><h6 id="软件？"><a href="#软件？" class="headerlink" title="软件？"></a><em>软件？</em></h6><h2 id="五：数学统计问题"><a href="#五：数学统计问题" class="headerlink" title="五：数学统计问题"></a>五：数学统计问题</h2><p>固定需求常数：（均值-标准差）/2；决策树？</p><h6 id="如何验证该常数的准确性？"><a href="#如何验证该常数的准确性？" class="headerlink" title="如何验证该常数的准确性？"></a><em>如何验证该常数的准确性？</em></h6><p>非固定需求常数：实际运输量-固定需求常数。</p><h6 id="如何理解非固定需求概率分布估计方法？"><a href="#如何理解非固定需求概率分布估计方法？" class="headerlink" title="如何理解非固定需求概率分布估计方法？"></a><em>如何理解非固定需求概率分布估计方法？</em></h6><h2 id="Questions"><a href="#Questions" class="headerlink" title="Questions:"></a>Questions:</h2><ol><li>归一化处理的注意事项，尤其是评价类问题；</li><li>模型评价和验证；</li><li>规划类问题还没有遇到。</li></ol><p><img src="https://pic.imgdb.cn/item/64c8a7761ddac507cca7a647.webp" alt="数模模型总结"></p><h1 id="Request："><a href="#Request：" class="headerlink" title="Request："></a>Request：</h1><ol><li><p>每类问题至少拿得出手一个模型。</p></li><li><p>名表模型的优缺点，该舍舍，该用用。</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何拿到导师的超算（4090）</title>
+      <link href="/2023/07/01/%E5%A6%82%E4%BD%95%E6%8B%BF%E5%88%B0%E5%AF%BC%E5%B8%88%E7%9A%84%E8%B6%85%E7%AE%97%EF%BC%884090%EF%BC%89/"/>
+      <url>/2023/07/01/%E5%A6%82%E4%BD%95%E6%8B%BF%E5%88%B0%E5%AF%BC%E5%B8%88%E7%9A%84%E8%B6%85%E7%AE%97%EF%BC%884090%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h1 id="如何拿到导师的超算-4090😂"><a href="#如何拿到导师的超算-4090😂" class="headerlink" title="如何拿到导师的超算(4090😂)"></a>如何拿到导师的超算(4090😂)</h1><h2 id="一、登录服务器及基础工作"><a href="#一、登录服务器及基础工作" class="headerlink" title="一、登录服务器及基础工作"></a>一、登录服务器及基础工作</h2><ol><li><p>登录：Vscode内安装Remote SSH拓展，在右侧远程资源管理器内的SSH下的主机内新建一个账户，账户写好端口、账号、密码，然后登录。一般情况下服务器内应该配好了Slurm。记得给自己空白的分区下安装拓展，直接用vscode就行。</p></li><li><p>修改密码：命令 <code>passwd 用户名</code> 修改。设密码是为了防挖矿。</p></li><li><p>上传文件：切到被上传文件的目录下，<code>scp -P XXX(你的端口号) -r XXX(文件名) XXX(用户名)@XXX(IP):~/</code>,装了Termius可以桌面式操作上。</p></li><li><p>配置环境：依照CUDA，先安装Anaconda，然后Pytorch</p><p><a href="https://zhuanlan.zhihu.com/p/115428789">PyTorch教程：如何使用Python开发深度学习模型（建议收藏） - 知乎 (zhihu.com)</a></p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 基础学科 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科研 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>机试技巧与STL</title>
       <link href="/2023/05/20/%E6%9C%BA%E8%AF%95%E6%8A%80%E5%B7%A7%E4%B8%8ESTL/"/>
       <url>/2023/05/20/%E6%9C%BA%E8%AF%95%E6%8A%80%E5%B7%A7%E4%B8%8ESTL/</url>
@@ -73,25 +117,6 @@
     
     
     <entry>
-      <title>数据结构</title>
-      <link href="/2023/05/08/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-      <url>/2023/05/08/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
-      
-        <content type="html"><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> 算法 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>STL使用手册</title>
       <link href="/2023/05/06/STL/"/>
       <url>/2023/05/06/STL/</url>
@@ -109,6 +134,31 @@
         <tags>
             
             <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Anaconda</title>
+      <link href="/2023/05/01/Anaconda/"/>
+      <url>/2023/05/01/Anaconda/</url>
+      
+        <content type="html"><![CDATA[<h1 id="AI常用工具"><a href="#AI常用工具" class="headerlink" title="AI常用工具"></a>AI常用工具</h1><p>基础工具安装：CUDA👉Anaconda👉Jupyter👉Matplotlib👉NumpyPyTorch</p><p>快速入门：<a href="https://www.bilibili.com/video/BV1oF411s7RS/?spm_id_from=333.788.top_right_bar_window_history.content.click&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">【CUDA + Anaconda 】深度学习环境配置，3分钟搞定简单粗暴<em>哔哩哔哩</em></a></p><p>Linux安装方法：</p><p><a href="https://blog.csdn.net/arno_an/article/details/105229780">(47条消息) Linux系统安装Anaconda3保姆级教程_anaconda3 linux_zhianY的博客-CSDN博客</a></p><p><a href="https://blog.csdn.net/qq_31225201/article/details/119458258">Linux] 安装Anaconda后出现的conda: command not found问题_让我安静会的博客-CSDN博客</a></p><p>安装失败解决办法：</p><ol><li>删除.condarc文件</li></ol><h2 id="一、命令行"><a href="#一、命令行" class="headerlink" title="一、命令行"></a>一、命令行</h2><ol><li>常用conda命令</li></ol>   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">conda --version <span class="comment">#查看conda版本，验证是否安装</span></span><br><span class="line">conda update conda <span class="comment">#更新至最新版本，也会更新其它相关包</span></span><br><span class="line">conda update --all <span class="comment">#更新所有包</span></span><br><span class="line">conda update package_name <span class="comment">#更新指定的包</span></span><br><span class="line">conda create -n env_name package_name <span class="comment">#创建名为env_name的新环境，并在该环境下安装名为package_name 的包，可以指定新环境的版本号，例如：conda create -n python2 python=python2.7 numpy pandas，创建了python2环境，python版本为2.7，同时还安装了numpy pandas包</span></span><br><span class="line"><span class="built_in">source</span> activate env_name <span class="comment">#切换至env_name环境</span></span><br><span class="line"><span class="built_in">source</span> deactivate <span class="comment">#退出环境</span></span><br><span class="line">conda info -e <span class="comment">#显示所有已经创建的环境</span></span><br><span class="line">conda create --name new_env_name --<span class="built_in">clone</span> old_env_name <span class="comment">#复制old_env_name为new_env_name</span></span><br><span class="line">conda remove --name env_name –all <span class="comment">#删除环境</span></span><br><span class="line">conda list <span class="comment">#查看所有已经安装的包</span></span><br><span class="line">conda install package_name <span class="comment">#在当前环境中安装包</span></span><br><span class="line">conda install --name env_name package_name <span class="comment">#在指定环境中安装包</span></span><br><span class="line">conda remove -- name env_name package <span class="comment">#删除指定环境中的包</span></span><br><span class="line">conda remove package <span class="comment">#删除当前环境中的包</span></span><br><span class="line">conda <span class="built_in">env</span> remove -n env_name <span class="comment">#采用第10条的方法删除环境失败时，可采用这种方法</span></span><br></pre></td></tr></table></figure><ol><li>打开jupyter<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conda activate name(虚拟环境名称)</span><br><span class="line">jupyter notebook  ```bash</span><br></pre></td></tr></table></figure></li></ol><p>​    快捷键：</p><p>按【H】键，会调出键盘快捷键</p><p><strong>命令行模式:</strong></p><p>Esc键 进入命令行模式</p><p>单元格左边变蓝色</p><p>常用快捷键</p><p>【Ctrl+Enter】：是运行选中的单元格，他会停留在此</p><p>【Alt+Enter】：是运行单元格并且在下面插入一个新的单元格</p><p>【Shift+Enter】:是 运行单元格, 并选择下面的单元格</p><p>【Tab】键用来代码补全</p><p>【A】键：above是在上面插入单元格</p><p>【B】键：below 是在下面插入单元格</p><p>【M】键： 是把单元格变成Markdown</p><p>【Y】键：是把单元格变成代码块</p><p>两下【D】键：删除选中的单元格</p><p><strong>编辑模式:</strong><br>Enter键 进入编辑模式</p><p>常用快捷键</p><p>【Ctrl+/】:代码注释</p><p>【Ctrl+D】:删除整行</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> AI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
             
         </tags>
       
@@ -142,36 +192,11 @@
     
     
     <entry>
-      <title>Anaconda</title>
-      <link href="/2023/05/01/Anaconda/"/>
-      <url>/2023/05/01/Anaconda/</url>
-      
-        <content type="html"><![CDATA[<h1 id="AI常用工具"><a href="#AI常用工具" class="headerlink" title="AI常用工具"></a>AI常用工具</h1><p>基础工具安装：CUDA👉Anaconda👉Jupyter👉Matplotlib👉NumpyPyTorch</p><p>快速入门：<a href="https://www.bilibili.com/video/BV1oF411s7RS/?spm_id_from=333.788.top_right_bar_window_history.content.click&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">【CUDA + Anaconda 】深度学习环境配置，3分钟搞定简单粗暴<em>哔哩哔哩</em></a></p><p>安装失败解决办法：</p><ol><li>删除.condarc文件</li></ol><h2 id="一、命令行"><a href="#一、命令行" class="headerlink" title="一、命令行"></a>一、命令行</h2><ol><li>常用conda命令</li></ol>   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">conda --version <span class="comment">#查看conda版本，验证是否安装</span></span><br><span class="line">conda update conda <span class="comment">#更新至最新版本，也会更新其它相关包</span></span><br><span class="line">conda update --all <span class="comment">#更新所有包</span></span><br><span class="line">conda update package_name <span class="comment">#更新指定的包</span></span><br><span class="line">conda create -n env_name package_name <span class="comment">#创建名为env_name的新环境，并在该环境下安装名为package_name 的包，可以指定新环境的版本号，例如：conda create -n python2 python=python2.7 numpy pandas，创建了python2环境，python版本为2.7，同时还安装了numpy pandas包</span></span><br><span class="line"><span class="built_in">source</span> activate env_name <span class="comment">#切换至env_name环境</span></span><br><span class="line"><span class="built_in">source</span> deactivate <span class="comment">#退出环境</span></span><br><span class="line">conda info -e <span class="comment">#显示所有已经创建的环境</span></span><br><span class="line">conda create --name new_env_name --<span class="built_in">clone</span> old_env_name <span class="comment">#复制old_env_name为new_env_name</span></span><br><span class="line">conda remove --name env_name –all <span class="comment">#删除环境</span></span><br><span class="line">conda list <span class="comment">#查看所有已经安装的包</span></span><br><span class="line">conda install package_name <span class="comment">#在当前环境中安装包</span></span><br><span class="line">conda install --name env_name package_name <span class="comment">#在指定环境中安装包</span></span><br><span class="line">conda remove -- name env_name package <span class="comment">#删除指定环境中的包</span></span><br><span class="line">conda remove package <span class="comment">#删除当前环境中的包</span></span><br><span class="line">conda <span class="built_in">env</span> remove -n env_name <span class="comment">#采用第10条的方法删除环境失败时，可采用这种方法</span></span><br></pre></td></tr></table></figure><ol><li>打开jupyter<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conda activate name(虚拟环境名称)</span><br><span class="line">jupyter notebook  ```bash</span><br></pre></td></tr></table></figure></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> AI </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> AI </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>OI工具</title>
       <link href="/2023/04/27/OI%E5%B7%A5%E5%85%B7/"/>
       <url>/2023/04/27/OI%E5%B7%A5%E5%85%B7/</url>
       
-        <content type="html"><![CDATA[<h1 id="OI工具"><a href="#OI工具" class="headerlink" title="OI工具"></a>OI工具</h1><h2 id="一、CP-Editor-编译器"><a href="#一、CP-Editor-编译器" class="headerlink" title="一、CP Editor 编译器"></a>一、CP Editor 编译器</h2><p>（<del>Copy and Paste Editorial</del>）</p><h3 id="1-安装"><a href="#1-安装" class="headerlink" title="(1) 安装"></a>(1) 安装</h3><ol><li><p>文字教程：<a href="https://oi-wiki.org/tools/editor/cpeditor/">CP Editor - OI Wiki (oi-wiki.org)</a></p></li><li><p>视频教程：<a href="https://www.bilibili.com/video/BV1mX4y1V7S8/?vd_source=15aaf2f3032abe28c98a76535d8c050b">简单的 CP Editor 使用教程！_哔哩哔哩_bilibili</a></p></li></ol><h3 id="2-日常调教-（Ctrl-P打开设置）"><a href="#2-日常调教-（Ctrl-P打开设置）" class="headerlink" title="(2) 日常调教  （Ctrl+P打开设置）"></a>(2) 日常调教  （Ctrl+P打开设置）</h3><ul><li><h4 id="设置模板"><a href="#设置模板" class="headerlink" title="设置模板"></a>设置模板</h4><ol><li><p>管理员身份的cmd进入cf_v1.0.0_windows_64文件路径。</p></li><li><p>命令<code>cf config</code>跳出选项。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Configure the tool</span><br><span class="line">0) login</span><br><span class="line">1) add a template</span><br><span class="line">2) delete a template</span><br><span class="line">3) set default template</span><br><span class="line">4) run &quot;cf gen&quot; after &quot;cf parse&quot;</span><br><span class="line">5) set host domain</span><br><span class="line">6) set proxy</span><br><span class="line">7) set folders&#x27; name</span><br><span class="line">Please choose one (index):</span><br></pre></td></tr></table></figure></li><li><p>选<code>0</code>登录后，再调出上述界面。</p></li><li><p>选<code>1</code>添加模板，再选<code>language</code>里的<code>50</code>(G++14)。在<code>Template absolute path(e.g. &quot;~/template/io.cpp&quot;):</code>之后输入模板文件路径。<code>suffix</code>不需要填，直接回车。</p></li><li><p><code>alias</code>输入<code>cpp</code>。</p></li><li><p><code>`Before script</code>也不需要填，直接回车。</p></li><li><p><code>Script</code>下直接复制<code>./$%file%$.exe</code>输入就行。</p></li><li><p><code>After Script</code>直接回车。</p></li><li><p><code>Make it default (y/n)?</code> 输入<code>y</code>。<strong>这样上传模板就成功了。</strong></p></li><li><p>用<code>cf config</code>调出选项，用3，2来设置默认模板和删除模板。</p></li></ol></li></ul><ul><li><h4 id="CF-Tool爬取OJ"><a href="#CF-Tool爬取OJ" class="headerlink" title="CF Tool爬取OJ"></a>CF Tool爬取OJ</h4><p><em>(需事先安装Competitive Companion 拓展(CF tool)</em></p><ol><li>直接爬取：在左键浏览器CF Tool插件$\rightarrow$Parse with$\rightarrow$Problem parser$\rightarrow$选择相应OJ内核。</li><li>开启默认：在左键浏览器CF Tool插件$\rightarrow$管理拓展$\rightarrow$扩展选项$\rightarrow$Custom rules$\rightarrow$设置OJ网址和OJ类型。</li></ol></li></ul><h2 id="二、相关网站"><a href="#二、相关网站" class="headerlink" title="二、相关网站"></a>二、相关网站</h2><ul><li><a href="https://comphub.notion.site/comphub/c5f45f67535e452ba475497c46830534?v=fcfac8df9b9d4fe2883226a3580c2f1a">OJ日历</a>：比赛日历</li><li><a href="https://oi-wiki.org/">OI Wiki</a>：知识点百科</li><li><a href="https://cftracker.netlify.app/contests">CF Tracker</a>：CodeForces赛事题目统计</li><li></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="OI工具"><a href="#OI工具" class="headerlink" title="OI工具"></a>OI工具</h1><h2 id="一、CP-Editor-编译器"><a href="#一、CP-Editor-编译器" class="headerlink" title="一、CP Editor 编译器"></a>一、CP Editor 编译器</h2><p>（<del>Copy and Paste Editorial</del>）</p><h3 id="1-安装"><a href="#1-安装" class="headerlink" title="(1) 安装"></a>(1) 安装</h3><ol><li><p>文字教程：<a href="https://oi-wiki.org/tools/editor/cpeditor/">CP Editor - OI Wiki (oi-wiki.org)</a></p></li><li><p>视频教程：<a href="https://www.bilibili.com/video/BV1mX4y1V7S8/?vd_source=15aaf2f3032abe28c98a76535d8c050b">简单的 CP Editor 使用教程！_哔哩哔哩_bilibili</a></p></li></ol><h3 id="2-日常调教-（Ctrl-P打开设置）"><a href="#2-日常调教-（Ctrl-P打开设置）" class="headerlink" title="(2) 日常调教  （Ctrl+P打开设置）"></a>(2) 日常调教  （Ctrl+P打开设置）</h3><ul><li><h4 id="设置模板"><a href="#设置模板" class="headerlink" title="设置模板"></a>设置模板</h4><ol><li><p>管理员身份的cmd进入cf_v1.0.0_windows_64文件路径。(找不到路径就在cp editor的设置里找)</p></li><li><p>命令<code>cf config</code>跳出选项。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Configure the tool</span><br><span class="line">0) login</span><br><span class="line">1) add a template</span><br><span class="line">2) delete a template</span><br><span class="line">3) set default template</span><br><span class="line">4) run &quot;cf gen&quot; after &quot;cf parse&quot;</span><br><span class="line">5) set host domain</span><br><span class="line">6) set proxy</span><br><span class="line">7) set folders&#x27; name</span><br><span class="line">Please choose one (index):</span><br></pre></td></tr></table></figure></li><li><p>选<code>0</code>登录后，再调出上述界面。</p></li><li><p>选<code>1</code>添加模板，再选<code>language</code>里的<code>50</code>(G++14)。在<code>Template absolute path(e.g. &quot;~/template/io.cpp&quot;):</code>之后输入模板文件路径，不用带引号。<code>suffix</code>不需要填，直接回车。</p></li><li><p><code>alias</code>输入<code>cpp</code>。</p></li><li><p><code>`Before script</code>也不需要填，直接回车。</p></li><li><p><code>Script</code>下直接复制<code>./$%file%$.exe</code>输入就行。</p></li><li><p><code>After Script</code>直接回车。</p></li><li><p><code>Make it default (y/n)?</code> 输入<code>y</code>。<strong>这样上传模板就成功了。</strong></p></li><li><p>用<code>cf config</code>调出选项，用3，2来设置默认模板和删除模板。</p></li></ol></li></ul><ul><li><h4 id="CF-Tool爬取OJ"><a href="#CF-Tool爬取OJ" class="headerlink" title="CF Tool爬取OJ"></a>CF Tool爬取OJ</h4><p><em>(需事先安装Competitive Companion 拓展(CF tool)</em></p><ol><li>直接爬取：在左键浏览器CF Tool插件$\rightarrow$Parse with$\rightarrow$Problem parser$\rightarrow$选择相应OJ内核。</li><li>开启默认：在左键浏览器CF Tool插件$\rightarrow$管理拓展$\rightarrow$扩展选项$\rightarrow$Custom rules$\rightarrow$设置OJ网址和OJ类型。</li></ol></li></ul><h2 id="二、相关网站"><a href="#二、相关网站" class="headerlink" title="二、相关网站"></a>二、相关网站</h2><ul><li><a href="https://comphub.notion.site/comphub/c5f45f67535e452ba475497c46830534?v=fcfac8df9b9d4fe2883226a3580c2f1a">OJ日历</a>：比赛日历</li><li><a href="https://oi-wiki.org/">OI Wiki</a>：知识点百科</li><li><a href="https://cftracker.netlify.app/contests">CF Tracker</a>：CodeForces赛事题目统计</li><li><a href="https://zh.moegirl.org.cn/OI%E6%A2%97">OI梗百科</a></li></ul><h2 id="三、编译器"><a href="#三、编译器" class="headerlink" title="三、编译器"></a>三、编译器</h2><p><a href="https://blog.csdn.net/Cykinter/article/details/113796587">VSCode打造成oi刷题利器</a></p>]]></content>
       
       
       <categories>
@@ -196,7 +221,7 @@
       <link href="/2023/04/15/%E7%A7%91%E7%A0%94%E5%B7%A5%E5%85%B7/"/>
       <url>/2023/04/15/%E7%A7%91%E7%A0%94%E5%B7%A5%E5%85%B7/</url>
       
-        <content type="html"><![CDATA[<h1 id="科研工具"><a href="#科研工具" class="headerlink" title="科研工具"></a>科研工具</h1><h2 id="一、tyora"><a href="#一、tyora" class="headerlink" title="一、tyora"></a>一、tyora</h2><p>破解版安装：<a href="https://www.bilibili.com/video/BV1zX4y1X73T/?spm_id_from=333.337.search-card.all.click">Typora免费安装使用，直接安装无废话(最新版本也可使用）_哔哩哔哩_bilibili</a></p><p>使用教程：<a href="https://www.bilibili.com/video/BV1hG411p7fX/?spm_id_from=333.999.0.0&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">[Markdown + Typora/VSCode 超全教程] 给大一新生安利的文本神器 !_哔哩哔哩_bilibili</a></p><h2 id="二、LaTex公式"><a href="#二、LaTex公式" class="headerlink" title="二、LaTex公式"></a>二、LaTex公式</h2><p>公式表：<a href="https://blog.csdn.net/LCCFlccf/article/details/89643585">(42条消息) LaTeX数学符号大全_latex 数学符号_LCCFlccf的博客-CSDN博客</a></p><p>公式编辑器：<a href="https://www.latexlive.com/">在线LaTeX公式编辑器-编辑器 (latexlive.com)</a></p><p>图片提取：</p><h3 id="三、Markdown"><a href="#三、Markdown" class="headerlink" title="三、Markdown"></a>三、Markdown</h3><p>语法：<a href="https://markdown.com.cn/intro.html">Markdown 入门基础 | Markdown 官方教程</a></p><p><a href="https://picgo.github.io/PicGo-Doc/zh/guide/#picgo-is-here">图床Picgo使用手册</a></p><h3 id="四、卡西欧fx991"><a href="#四、卡西欧fx991" class="headerlink" title="四、卡西欧fx991"></a>四、卡西欧fx991</h3><p><a href="https://www.bilibili.com/video/BV1gY411L71c/?spm_id_from=333.999.0.0&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">【B站最全】卡西欧fx991计算器使用教程升级版_哔哩哔哩_bilibili</a></p><h3 id="五、MatLab安装"><a href="#五、MatLab安装" class="headerlink" title="五、MatLab安装"></a>五、MatLab安装</h3><p><a href="https://blog.csdn.net/qq_44955314/article/details/120004211">(42条消息) 最新MATLAB R2020b超详细安装教程（附完整安装文件）_matlab2020b安装教程_dew_142857的博客-CSDN博客</a></p><h3 id="六、codeforces使用教程"><a href="#六、codeforces使用教程" class="headerlink" title="六、codeforces使用教程"></a>六、codeforces使用教程</h3><p><a href="https://blog.csdn.net/bwabdbkjdbkjwabd/article/details/119620156">CodeForce使用说明超详细！！！！！</a></p><p><a href="https://zhuanlan.zhihu.com/p/71674596">【洛谷日报#116】Codeforces快速精通</a></p><h3 id="七、lingo安装"><a href="#七、lingo安装" class="headerlink" title="七、lingo安装"></a>七、lingo安装</h3><p><a href="https://blog.csdn.net/GODSuner/article/details/107435105">Lingo 18.0及其安装教程</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="科研工具"><a href="#科研工具" class="headerlink" title="科研工具"></a>科研工具</h1><h1 id="一、tyora"><a href="#一、tyora" class="headerlink" title="一、tyora"></a>一、tyora</h1><p>破解版安装：<a href="https://www.bilibili.com/video/BV1zX4y1X73T/?spm_id_from=333.337.search-card.all.click">Typora免费安装使用，直接安装无废话(最新版本也可使用）_哔哩哔哩_bilibili</a></p><p>使用教程：<a href="https://www.bilibili.com/video/BV1hG411p7fX/?spm_id_from=333.999.0.0&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">[Markdown + Typora/VSCode 超全教程] 给大一新生安利的文本神器 !_哔哩哔哩_bilibili</a></p><h1 id="二、LaTex公式"><a href="#二、LaTex公式" class="headerlink" title="二、LaTex公式"></a>二、LaTex公式</h1><p>公式表：<a href="https://blog.csdn.net/LCCFlccf/article/details/89643585">(42条消息) LaTeX数学符号大全_latex 数学符号_LCCFlccf的博客-CSDN博客</a></p><p>公式编辑器：<a href="https://www.latexlive.com/">在线LaTeX公式编辑器-编辑器 (latexlive.com)</a></p><p>图片提取：</p><h1 id="三、Markdown"><a href="#三、Markdown" class="headerlink" title="三、Markdown"></a>三、Markdown</h1><p>语法：<a href="https://markdown.com.cn/intro.html">Markdown 入门基础 | Markdown 官方教程</a></p><p><a href="https://picgo.github.io/PicGo-Doc/zh/guide/#picgo-is-here">图床Picgo使用手册</a></p><h1 id="四、卡西欧fx991"><a href="#四、卡西欧fx991" class="headerlink" title="四、卡西欧fx991"></a>四、卡西欧fx991</h1><p><a href="https://www.bilibili.com/video/BV1gY411L71c/?spm_id_from=333.999.0.0&amp;vd_source=15aaf2f3032abe28c98a76535d8c050b">【B站最全】卡西欧fx991计算器使用教程升级版_哔哩哔哩_bilibili</a></p><h1 id="五、MatLab安装"><a href="#五、MatLab安装" class="headerlink" title="五、MatLab安装"></a>五、MatLab安装</h1><p><a href="https://blog.csdn.net/qq_44955314/article/details/120004211">(42条消息) 最新MATLAB R2020b超详细安装教程（附完整安装文件）_matlab2020b安装教程_dew_142857的博客-CSDN博客</a></p><h1 id="六、codeforces使用教程"><a href="#六、codeforces使用教程" class="headerlink" title="六、codeforces使用教程"></a>六、codeforces使用教程</h1><p><a href="https://blog.csdn.net/bwabdbkjdbkjwabd/article/details/119620156">CodeForce使用说明超详细！！！！！</a></p><p><a href="https://zhuanlan.zhihu.com/p/71674596">【洛谷日报#116】Codeforces快速精通</a></p><h1 id="七、lingo安装"><a href="#七、lingo安装" class="headerlink" title="七、lingo安装"></a>七、lingo安装</h1><p><a href="https://blog.csdn.net/GODSuner/article/details/107435105">Lingo 18.0及其安装教程</a></p><h1 id="八、新的导师评价网"><a href="#八、新的导师评价网" class="headerlink" title="八、新的导师评价网"></a>八、新的导师评价网</h1><p><a href="https://www.yankong.org/review">https://www.yankong.org/review</a></p>]]></content>
       
       
       <categories>
